@@ -90,10 +90,10 @@ body{
     left: 52.5%;
 }
 .registration>h1{
-    font-family: 'monospace';
-    font-size: 36px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 40px;
     font-weight: bold;
-    color:#000000ad
+    color: #0000007a;
 
 }
 .footer{
