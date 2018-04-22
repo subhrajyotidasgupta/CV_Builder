@@ -62,7 +62,7 @@ body{
 .form-inline{
 
     width:350px;
-    display: flex;
+    //display: flex;
     flex:1 1 auto;
     align-items: center;
     justify-content: space-between;
@@ -126,7 +126,7 @@ body{
     vertical-align: middle;
 }
 #remember_me_login{
-    display: flex;
+    //display: flex;
     flex: 1 1 auto;
     align-items: center;
     justify-content: space-between;
