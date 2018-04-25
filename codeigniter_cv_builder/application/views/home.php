@@ -3,11 +3,11 @@
 <head>
     <title> CV Builder </title>
 
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon-16x16.png">
 
 
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
     <div class=cv_wrapper>
@@ -16,7 +16,7 @@
                 <div class=title>
                     <div class=logo>
                         <a href="index.html">
-                            <div class=logo_png><img src=./img/cv_cover_letter-512.png></div>
+                            <div class=logo_png><img src=static/img/cv_cover_letter-512.png></div>
                             <div class=logo_text><h1>cv_builder</h1></div>
                         </a>
                     </div>
@@ -62,7 +62,7 @@
         </div>
         <div class=image_container>
             <div class=content_image>
-                <img src="./img/corporate.jpg">
+                <img src="static/img/corporate.jpg">
                 <div class=registration>
                     <h1>Registration</h1>
                     <form class="needs-validation" method="POST" action="signup.php" novalidate>
