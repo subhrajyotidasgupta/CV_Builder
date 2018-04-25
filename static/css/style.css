@@ -1,0 +1,128 @@
+body{
+    margin:auto;
+    margin-top: 0;
+}
+.header{
+    box-shadow: 0 2px 10px 0 #0000006b ;
+    padding-top:  20px;
+    position: relative;
+}
+.nav_bar{
+    padding-bottom: 30px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.nav_bar  div,span{
+    /*display: inline-block;*/
+}
+.logo>a{
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo>a:hover{
+    text-decoration: none;
+}
+.logo_png>img{
+    height:90px;
+    width:85px;
+}
+
+.title h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Trebuchet MS, sans-serif;
+    color: #2faafc;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.login_table{
+    float: right;
+    text-align: left;
+    padding-left: 162px;
+}
+.login_table h4{
+    padding: 0;
+    margin: 0;
+    font-family: Trebuchet MS;
+    font-weight: normal;
+    font-size: 12px;
+
+}
+.username,.password{
+    /*margin-right: 5px;*/
+    margin-bottom: 5px;
+}
+.form-inline{
+
+    width:350px;
+    display: flex;
+    flex:1 1 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.remember_me{
+    color:#00000091;
+}
+.content_image{
+    text-align: center;
+    color: black;
+}
+.content_image>img{
+    /*margin-top:20px;*/
+    width: 1288px;
+    z-index:-1;
+}
+
+
+.registration {
+    background-color:#00000045;
+    box-shadow: 3px 3px 10px #000000a8;
+    padding: 10px;
+    position: absolute;
+    top:250px;
+    left: 52.5%;
+}
+.registration>h1{
+    font-family: 'Proxima Nova Soft','Helvetica Neue',sans-serif, sans-serif;
+    //font-weight: bold;
+    color:#000000ad
+
+}
+.footer{
+    z-index: 2;
+    position: absolute;
+    background-color: inherit;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px -1px 12px #0000006b;
+    text-align: center;
+}
+.footer h4{
+    margin: 34px;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+}
+.input-group > .form-control:not(:last-child){
+    border-top-right-radius:0.25rem;
+    border-bottom-right-radius:0.25rem;
+}
+.gender>.input-group-text{
+    border: 0px;
+    color:inherit;
+    font-size: 14px;
+}
+.gender-container{
+    margin-left: 10px;
+    margin-top: 21px;
+    color:#0000009c;
+}
+.input-group {
+    flex-wrap:nowrap;
+}
