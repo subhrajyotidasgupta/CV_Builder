@@ -63,18 +63,18 @@
                 <img src="/codeigniter/static//img/corporate.jpg">
                 <div class=registration>
                     <h1>Registration</h1>
-                    <form class="needs-validation" method="POST" id="registrationform" action="registration.php" novalidate>
+                    <form class="needs-validation" method="POST" id="registrationform" action="<?php echo base_url() ?>index.php/register/submit" novalidate>
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <label for="validationCustom01"></label>
-                                <input type="text" name="fname" class="form-control" id="validationCustom01" placeholder="First name"  required>
+                                <input type="text" name="firstname" class="form-control" id="validationCustom01" placeholder="First name"  required>
                                 <div class="invalid-feedback">
                                     Please provide your first name.
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="validationCustom02"></label>
-                                <input type="text" name="lname" class="form-control" id="validationCustom02" placeholder="Last name"  required>
+                                <input type="text" name="lastname" class="form-control" id="validationCustom02" placeholder="Last name"  required>
                                 <div class="invalid-feedback">
                                     Please provide your last name.
                                 </div>
@@ -128,11 +128,11 @@
                                         </div>
                                         <div class="input-group-prepend ">
                                             <div class="input-group-text input-group-sm" style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem">
-                                                <input type="radio" aria-label="Radio button for following text input"  name="optradio">
+                                                <input type="radio" aria-label="Radio button for following text input"  name="gender">
                                                 <div class="gender">
                                                     <span class="input-group-text">Female</span>
                                                 </div>
-                                                <input type="radio" aria-label="Radio button for following text input"  name="optradio">
+                                                <input type="radio" aria-label="Radio button for following text input"  name="gender">
                                                 <div class="gender">
                                                     <span class="input-group-text">Male</span>
                                                 </div>
