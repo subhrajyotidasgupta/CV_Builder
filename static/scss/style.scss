@@ -82,12 +82,13 @@ body{
 
 
 .registration {
-    background-color:#00000045;
+    width: 500px;
+    background-color: #00000045;
     box-shadow: 3px 3px 10px #000000a8;
     padding: 10px;
     position: absolute;
-    top:180px;
-    left: 55%;
+    top: 250px;
+    left: 52%;
 }
 .registration>h1{
     font-family: 'Proxima Nova Soft','Helvetica Neue',sans-serif, sans-serif;
@@ -115,7 +116,7 @@ body{
     font-size: 14px;
 }
 .gender-container{
-    margin-left: 10px;
+    margin-left: 43px;
     margin-top: 21px;
-    color:#0000009c;
+    color: #0000009c;
 }

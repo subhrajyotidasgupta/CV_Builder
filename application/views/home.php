@@ -3,11 +3,9 @@
 <head>
     <title> CV Builder </title>
 
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url();?>static/img/favicon-16x16.png">
-
-
-    <link rel="stylesheet" href="<?php echo base_url();?>static/css/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>static/css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="stylesheet" href="/codeigniter/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/codeigniter/static/css/style.css">
 </head>
 <body>
     <div class=cv_wrapper>
@@ -15,8 +13,8 @@
             <div class=nav_bar>
                 <div class=title>
                     <div class=logo>
-                        <a href="index.html">
-                            <div class=logo_png><img src=<?php echo base_url();?>static/img/cv_cover_letter-512.png></div>
+                        <a href="/codeigniter/static//index.html">
+                            <div class=logo_png><img src=/codeigniter/static/img/cv_cover_letter-512.png></div>
                             <div class=logo_text><h1>cv_builder</h1></div>
                         </a>
                     </div>
@@ -62,21 +60,21 @@
         </div>
         <div class=image_container>
             <div class=content_image>
-                <img src="<?php echo base_url(); ?>/static/img/corporate.jpg">
+                <img src="/codeigniter/static//img/corporate.jpg">
                 <div class=registration>
                     <h1>Registration</h1>
-                    <form class="needs-validation" method="POST" action="signup.php" novalidate>
+                    <form class="needs-validation" method="POST" id="registrationform" action="registration.php" novalidate>
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <label for="validationCustom01"></label>
-                                <input type="text" class="form-control" id="validationCustom01" placeholder="First name" name="firstname" required>
+                                <input type="text" name="fname" class="form-control" id="validationCustom01" placeholder="First name"  required>
                                 <div class="invalid-feedback">
                                     Please provide your first name.
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="validationCustom02"></label>
-                                <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" name="secondname"  required>
+                                <input type="text" name="lname" class="form-control" id="validationCustom02" placeholder="Last name"  required>
                                 <div class="invalid-feedback">
                                     Please provide your last name.
                                 </div>
@@ -90,7 +88,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="inputGroupPrepend">@</span>
                                     </div>
-                                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="username" name="username" aria-describedby="inputGroupPrepend" required>
+                                    <input type="text" name="username" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
                                     <div class="invalid-feedback">
                                         Please choose a username.
                                     </div>
@@ -98,7 +96,7 @@
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="validationCustom03"></label>
-                                <input type="password" class="form-control" id="validationCustom03" placeholder="New Password" name="password" required>
+                                <input type="password" name="password" class="form-control" id="validationCustom03" placeholder="New Password" required>
                                 <div class="invalid-feedback">
                                     Please provide a password.
                                 </div>
@@ -108,41 +106,41 @@
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
                                 <label for="validationCustom04"></label>
-                                <input type="text" class="form-control" id="validationCustom04" placeholder="E-mail" name="email" required>
+                                <input type="text" name="email" class="form-control" id="validationCustom04" placeholder="E-mail" required>
                                 <div class="invalid-feedback">
                                     Please provide an email address.
                                 </div>
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="col-md-5.25 mb-3">
+                            <div class="col-md-6 mb-3">
                                 <label for="validationCustom05"></label>
-                                <input type="text" class="form-control" id="validationCustom05" placeholder="Phone" name="phone" required>
+                                <input type="text" name="phone" class="form-control" id="validationCustom05" placeholder="Phone" required>
                                 <div class="invalid-feedback">
                                     Please provide a phone number.
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <div class=gender-container>
-                                <div class=" input-group input-group-sm">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="">Gender</span>
-                                    </div>
-                                    <div class="input-group-prepend ">
-                                        <div class="input-group-text input-group-sm" style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem">
-                                            <input type="radio" aria-label="Radio button for following text input"  name="optradio">
-                                            <div class="gender">
-                                                <span class="input-group-text">Female</span>
-                                            </div>
-                                            <input type="radio" aria-label="Radio button for following text input"  name="optradio">
-                                            <div class="gender">
-                                                <span class="input-group-text">Male</span>
-                                            </div>
+                                    <div class=" input-group input-group-sm">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="">Gender</span>
+                                        </div>
+                                        <div class="input-group-prepend ">
+                                            <div class="input-group-text input-group-sm" style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem">
+                                                <input type="radio" aria-label="Radio button for following text input"  name="optradio">
+                                                <div class="gender">
+                                                    <span class="input-group-text">Female</span>
+                                                </div>
+                                                <input type="radio" aria-label="Radio button for following text input"  name="optradio">
+                                                <div class="gender">
+                                                    <span class="input-group-text">Male</span>
+                                                </div>
 
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                             </div>
                         </div>
                         <div class="form-group">
@@ -156,7 +154,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-primary" type="submit">Submit</button>
+                        <button class="btn btn-primary" type="submit" form="registrationform" value="submit">Submit</button>
                     </form>
 
                     <script>
