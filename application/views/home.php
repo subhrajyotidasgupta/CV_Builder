@@ -128,11 +128,11 @@
                                         </div>
                                         <div class="input-group-prepend ">
                                             <div class="input-group-text input-group-sm" style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem">
-                                                <input type="radio" aria-label="Radio button for following text input"  name="gender">
+                                                <input type="radio" aria-label="Radio button for following text input"  name="optradio" value="Female">
                                                 <div class="gender">
                                                     <span class="input-group-text">Female</span>
                                                 </div>
-                                                <input type="radio" aria-label="Radio button for following text input"  name="gender">
+                                                <input type="radio" aria-label="Radio button for following text input"  name="optradio" value="Male">
                                                 <div class="gender">
                                                     <span class="input-group-text">Male</span>
                                                 </div>
