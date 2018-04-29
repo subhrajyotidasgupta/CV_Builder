@@ -3,7 +3,7 @@
 <head>
     <title> CV Builder </title>
 
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>static/img/favicon-16x16.png">
     <link rel="stylesheet" href="/codeigniter/static/css/bootstrap.css">
     <link rel="stylesheet" href="/codeigniter/static/css/style.css">
 </head>

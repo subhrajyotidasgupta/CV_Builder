@@ -11,9 +11,9 @@
     <div class=cv_wrapper>
         <div class=header>
             <div class=nav_bar>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light">
                     <div class=logo>
-                        <a class="navbar-brand" href="dashboard.php">
+                        <a class="navbar-brand" href=".">
                             <div class=logo_png><img src=<?php echo base_url() ?>static/img/cv_cover_letter-512.png></div>
                             <div class=logo_text><h1>cv_builder</h1></div>
                         </a>
@@ -27,13 +27,13 @@
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Profile <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="#">View CV</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="#">Download</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <div class=logout>
                                     <button class="btn btn-primary btn-sm" type="logout">Logout</button>
                                 </div>
