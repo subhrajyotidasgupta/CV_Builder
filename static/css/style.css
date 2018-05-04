@@ -164,3 +164,6 @@ nav ul{
     margin-top: 10px;
     
 }
+.input-group{
+    flex-wrap:nowrap;
+}
