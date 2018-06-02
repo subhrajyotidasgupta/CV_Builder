@@ -45,3 +45,108 @@
 
             </div>
         </div>
+        <div class="dashboard">
+            <div class="row">
+                <div class="col-5">
+                    <div class="info_tab">
+                        <div class="info" >
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="text" >
+                                        Basic Information
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="add_button" >
+                                        +
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="text" >
+                                        Education
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="add_button" >
+                                        +
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="text" >
+                                        Experience
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="add_button" >
+                                        +
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="text" >
+                                        Skills
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="add_button" >
+                                        +
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="text" >
+                                        Additional Information
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="add_button" >
+                                        +
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=col-1>
+                    <div class="vertical_marker">
+                        <div class="vertical_line">                           
+                        </div>
+                        <div class="arrow_container">
+                            <div class="arrow_traingle1">
+                            </div>
+                            <div class="arrow_triangle2">                              
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="info_input">
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+        <div class=footer>
+            <h4>Copyright &copy CV Builder 2017. All rights reserved.</h4>
+        </div>
+    </div>
+</body>
+        
+        
+                

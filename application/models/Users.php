@@ -23,5 +23,11 @@
                 return false;
             }
         }
+        public function verify_user($post_input)
+        {
+            $data= ['username'=>$post_input['username'],
+                'password'=>$post_input['password']];
+            
+        }
     }
-?>
+

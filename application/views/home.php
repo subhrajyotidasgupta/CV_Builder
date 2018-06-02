@@ -4,8 +4,8 @@
     <title> CV Builder </title>
 
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>static/img/favicon-16x16.png">
-    <link rel="stylesheet" href="/codeigniter/static/css/bootstrap.css">
-    <link rel="stylesheet" href="/codeigniter/static/css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>static/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>static/css/style.css">
 </head>
 <body>
     <div class=cv_wrapper>
@@ -14,7 +14,7 @@
                 <div class=title>
                     <div class=logo>
                         <a href="/codeigniter/static//index.html">
-                            <div class=logo_png><img src=/codeigniter/static/img/cv_cover_letter-512.png></div>
+                            <div class=logo_png><img src="<?php echo base_url() ?>static/img/cv_cover_letter-512.png"></div>
                             <div class=logo_text><h1>cv_builder</h1></div>
                         </a>
                     </div>
@@ -60,7 +60,7 @@
         </div>
         <div class=image_container>
             <div class=content_image>
-                <img src="/codeigniter/static//img/corporate.jpg">
+                <img src="<?php echo base_url() ?>static//img/corporate.jpg">
                 <div class=registration>
                     <h1>Registration</h1>
                     <form class="needs-validation" method="POST" id="registrationform" action="<?php echo base_url() ?>index.php/register/submit" novalidate>
@@ -156,7 +156,7 @@
                         </div>
                         <button class="btn btn-primary" type="submit" form="registrationform" value="submit">Submit</button>
                     </form>
-
+                    
                     <script>
                     // Example starter JavaScript for disabling form submissions if there are invalid fields
                     (function() {

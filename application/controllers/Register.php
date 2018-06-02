@@ -10,5 +10,8 @@ class Register extends CI_Controller {
         if($u){
             $this->load->view('dashboard');
         }
+        else{
+            echo "Email or username already exists.";
+        }
     }
 }
